@@ -1,6 +1,6 @@
 let score1 = 0;
 
-var tank, tankImage, tank_shot, explosion;
+var tank, tankImage, explosion;
 var bullet;
 
 var ground, groundImage;
@@ -14,7 +14,6 @@ var border;
 function preload() {
 
     tankImage = loadAnimation("tank1.png");
-    tank_shot = loadAnimation("tank_shot.png");
 
     groundImage = loadImage("ground.png");
 
