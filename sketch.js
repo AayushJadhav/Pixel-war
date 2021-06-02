@@ -35,7 +35,6 @@ function setup() {
 
     tank = createSprite(windowWidth - windowWidth + 90, windowHeight - 80);
     tank.addAnimation("normal", tankImage);
-    tank.addAnimation("afterShot", tank_shot);
     tank.scale = 0.5;
 
     bullet = createSprite(tank.x, tank.y, 10, 10);
